@@ -4,9 +4,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	
-	<name>mqs</name>
-	<url>https://kuyer.github.io/mqs</url>
-	<description>kuyer mqs is message broker server.</description>
+	<name>mq</name>
+	<url>https://kuyer.github.io/mq</url>
+	<description>kuyer mq is message broker.</description>
 	
 	<parent>
         <groupId>org.springframework.boot</groupId>
@@ -15,7 +15,7 @@
     </parent>
 	
 	<groupId>io.github.kuyer</groupId>
-	<artifactId>kuyer-mqs</artifactId>
+	<artifactId>kuyer-mq</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1</version>
 	
@@ -132,10 +132,10 @@
 							<goal>replace</goal>
 						</goals>
 						<configuration>
-							<file>config/readme.html</file>
+							<file>config/readme.cfg</file>
 							<token>#message#</token>
-							<value>env: ${package.target}; version: ${project.version}; datetime: ${maven.build.timestamp}.</value>
-							<outputFile>${project.build.directory}/classes/static/readme.html</outputFile>
+							<value>{"name":"${project.artifactId}","group":"${project.groupId}","version":"${project.version}","env":"${package.target}","buildtime":"${maven.build.timestamp}"}</value>
+							<outputFile>${project.build.directory}/classes/static/readme.json</outputFile>
 						</configuration>
 					</execution>
 				</executions>
