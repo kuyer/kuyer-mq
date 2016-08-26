@@ -1,4 +1,4 @@
-package io.github.kuyer.mqs;
+package io.github.kuyer.mq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

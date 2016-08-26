@@ -1,4 +1,4 @@
-package io.github.kuyer.mqs.web;
+package io.github.kuyer.mq.web;
 
 import org.springframework.stereotype.Controller;
 

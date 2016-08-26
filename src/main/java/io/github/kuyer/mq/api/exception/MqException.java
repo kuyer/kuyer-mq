@@ -1,4 +1,4 @@
-package io.github.kuyer.mqs.api.exception;
+package io.github.kuyer.mq.api.exception;
 
 /**
  * 消息异常类

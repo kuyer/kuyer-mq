@@ -1,4 +1,4 @@
-package io.github.kuyer.mqs.api.model;
+package io.github.kuyer.mq.api.model;
 
 import java.io.Serializable;
 

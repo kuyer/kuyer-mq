@@ -1,4 +1,4 @@
-package io.github.kuyer.mqs.api;
+package io.github.kuyer.mq.api;
 
 /**
  * 消息生产接口
