@@ -1,2 +1,2 @@
-# kuyer-mqs
-枯叶消息队列服务
+# kuyer-mq
+枯叶消息服务（KuyerMQ）
