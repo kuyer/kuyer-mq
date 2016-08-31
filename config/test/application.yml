@@ -1,3 +1,5 @@
 server:
-  port: 9209
-
+    port: 11114
+spring.h2.console:
+    path: /console/h2
+    enabled: true
